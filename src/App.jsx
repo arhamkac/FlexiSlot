@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
 import BookingPage from './components/BookingPage';
 import ContactUs from './components/ContactUs';
+import BookingStatus from './components/BookingStatus';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/booking" element={<BookingPage />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/bookingstatus" element={<BookingStatus />} />
 
           {/* New routes for authentication */}
           <Route path="/login" element={<Login />} />

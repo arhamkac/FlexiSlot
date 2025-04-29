@@ -37,11 +37,6 @@ export default function Footer() {
                 Contact Us
               </Link>
             </li>
-            <li>
-              <Link to="/privacypolicy" className="hover:text-white transition">
-                Privacy Policy
-              </Link>
-            </li>
           </ul>
         </div>
 

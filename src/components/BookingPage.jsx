@@ -19,15 +19,18 @@ export default function BookingPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { userName, email, date, cat, timeSlot, room } = formData;
+  
     if (!userName || !email || !date || !cat || !timeSlot || !room) {
       alert('Please fill out all fields before booking.');
       return;
     }
+  
     if (window.confirm('Are you sure you want to book this slot?')) {
       setShowConfirmation(true);
-      setTimeout(() => navigate('/bookingstatus'), 1000);
+      setTimeout(() => navigate('/bookingstatus', { state: formData }), 1000);
     }
   };
+  
 
   return (
     <div className="bg-[#0a0a0a] min-h-screen flex items-center justify-center p-4">

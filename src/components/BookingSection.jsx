@@ -13,10 +13,10 @@ export default function BookingSection() {
         'https://images.unsplash.com/photo-1622737133809-d95047b9e673?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1pbmltYWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww',
       titleColor: 'text-[#00f2fe]',
       slots: [
-        '10:00 AM - 11:00 AM',
-        '11:00 AM - 12:00 PM',
-        '12:00 PM - 01:00 PM',
-        '01:00 PM - 02:00 PM',
+        '8:00 AM - 10:00 AM',
+        '10:00 AM - 12:00 PM',
+        '01:00 PM - 03:00 PM',
+        '03:00 PM - 05:00 PM',
       ],
     },
     {
@@ -25,8 +25,13 @@ export default function BookingSection() {
       bgImage:
         'https://img.freepik.com/premium-photo/minimalist-classroom-clean-contemporary-with-beige-floor_887552-11642.jpg',
       titleColor: 'text-[#000000]',
-      slots: ['2 days', '5 days', '1 week', '15 days'],
-    },
+      slots: [
+        '8:00 AM - 10:00 AM',
+        '10:00 AM - 12:00 PM',
+        '01:00 PM - 03:00 PM',
+        '03:00 PM - 05:00 PM',
+      ],
+    },    
     {
       id: 'parking',
       title: 'Parking Slot',
@@ -34,10 +39,10 @@ export default function BookingSection() {
         'https://images.unsplash.com/photo-1622737133809-d95047b9e673?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1pbmltYWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww',
       titleColor: 'text-[#00f2fe]',
       slots: [
-        '10:00 AM - 11:00 AM',
-        '11:00 AM - 12:00 PM',
-        '12:00 PM - 01:00 PM',
-        '01:00 PM - 02:00 PM',
+        '8:00 AM - 10:00 AM',
+        '10:00 AM - 12:00 PM',
+        '01:00 PM - 03:00 PM',
+        '03:00 PM - 05:00 PM',
       ],
     },
   ];
