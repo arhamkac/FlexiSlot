@@ -12,6 +12,7 @@ import ContactUs from './components/ContactUs';
 import BookingStatus from './components/BookingStatus';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/booking" element={<BookingPage />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/bookingstatus" element={<BookingStatus />} />
+          <Route path="/dashboard" element={<Dashboard />} />
 
           {/* New routes for authentication */}
           <Route path="/login" element={<Login />} />

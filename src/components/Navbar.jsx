@@ -43,21 +43,28 @@ export default function Navbar() {
           />
         </div>
 
-        {/* Sign Up / Login */}
-        <div className="ml-6 flex space-x-6">
-          <Link
-            to="/signup"
-            className="text-[#00f2fe] text-lg transition-colors duration-300 hover:text-[#ff00ff]"
-          >
-            Sign Up
-          </Link>
-          <Link
-            to="/login"
-            className="text-[#00f2fe] text-lg transition-colors duration-300 hover:text-[#ff00ff]"
-          >
-            Login
-          </Link>
-        </div>
+        {/* Dashboard / Sign Up / Login */}
+<div className="ml-6 flex space-x-6">
+  <Link
+    to="/dashboard"
+    className="text-[#f97102] text-lg transition-colors duration-300 hover:text-[#ff00ff]"
+  >
+    Dashboard
+  </Link>
+  <Link
+    to="/signup"
+    className="text-[#00f2fe] text-lg transition-colors duration-300 hover:text-[#ff00ff]"
+  >
+    Sign Up
+  </Link>
+  <Link
+    to="/login"
+    className="text-[#00f2fe] text-lg transition-colors duration-300 hover:text-[#ff00ff]"
+  >
+    Login
+  </Link>
+</div>
+
       </div>
     </header>
   );

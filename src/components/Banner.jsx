@@ -37,6 +37,7 @@ export default function Banner() {
         >
           Explore Slots
         </button>
+
       </div>
     </section>
   )
