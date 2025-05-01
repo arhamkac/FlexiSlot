@@ -1,3 +1,4 @@
+ 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -43,6 +44,7 @@ export default function Navbar() {
               { label: 'Home', to: '/' },
               { label: 'Book Slot', to: '/booking' },
               { label: 'My Bookings', to: '/bookingstatus' },
+           
               { label: 'Contact', to: '/contact' },
             ].map((link, idx) => (
               <li key={idx}>
@@ -92,6 +94,7 @@ export default function Navbar() {
             { label: 'Home', to: '/' },
             { label: 'Book Slot', to: '/booking' },
             { label: 'My Bookings', to: '/bookingstatus' },
+            // { label: 'User Profile', to: '/profile' },
             { label: 'Contact', to: '/contact' },
             { label: 'Dashboard', to: '/dashboard' },
             { label: 'Sign Up', to: '/signup' },

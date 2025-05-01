@@ -1,3 +1,4 @@
+ 
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -35,6 +36,11 @@ export default function Footer() {
             <li>
               <Link to="/contact" className="hover:text-white transition">
                 Contact Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/guidelines" className="hover:text-white transition">
+                Guidelines
               </Link>
             </li>
           </ul>

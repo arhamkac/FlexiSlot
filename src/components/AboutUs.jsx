@@ -33,10 +33,9 @@ export default function AboutUs() {
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-semibold text-[#00f2fe] mb-3">Our Team Members</h2>
             <ul className="list-disc list-inside text-[#b0bec5] space-y-1">
-              <li>Aishwarya Singh</li>
+               
               <li>Anvesha Chauhan</li>
               <li>Arham Kachhara</li>
-              <li>Abhas Nath</li>
               <li>Manas Srivastava</li>
               <li>Mehul Raj</li>
               <li>Puneeth</li>

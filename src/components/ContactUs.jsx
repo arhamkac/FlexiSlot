@@ -19,7 +19,7 @@ export default function ContactUs() {
       alert('Please fill out all fields before sending.');
       return;
     }
-    // stub: send data...
+     
     alert('Your message has been sent!');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
