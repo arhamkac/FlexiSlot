@@ -2,9 +2,9 @@ import React from "react";
 
 const Profile = () => {
   const user = {
-    firstName: "Chandu",
-    lastName: "Student",
-    email: "chandu@example.com",
+    firstName: "Albert",
+    lastName: "Einstein",
+    email: "electron@gmail.com",
     bookings: [
       { date: "2025-05-01", time: "10:00 AM", status: "Confirmed" },
       { date: "2025-04-30", time: "2:00 PM", status: "Cancelled" },
@@ -51,3 +51,4 @@ const Profile = () => {
 };
 
 export default Profile;
+ 
